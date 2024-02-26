@@ -1,0 +1,50 @@
+.titulo{
+    text-align: center;
+  }
+  
+  .busqueda{
+    color: grey;
+  }
+  
+  .lupa{
+    height: 20px;
+    width: 20px;
+  }
+  
+  .asi {
+    color: blue;
+  }
+  
+  .maletin{
+    height: 80px;
+    width: 150px;
+    text-align: center;
+  }
+  
+  .texto {
+    text-align: left;
+  }
+  
+  .imagenes {
+    height: 80px;
+    width: 300px;
+  }
+  
+  button {
+    width: 110px; 
+    margin-left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  
+  .column {
+    float: left;
+    width: 50%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
